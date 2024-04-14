@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1713053681 source:d:\p-c++\proyectofinal\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario.h"
+	<string>
+	"Colegiatura.h"
+
+1713054017 d:\p-c++\proyectofinal\include\portadas.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713054001 d:\p-c++\proyectofinal\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713054012 source:d:\p-c++\proyectofinal\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+	"Colegiatura.h"
+
+1713055476 source:d:\p-c++\proyectofinal\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	"Portadas.h"
+	"Colegiatura.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713053671 d:\p-c++\proyectofinal\include\colegiatura.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1713055449 source:d:\p-c++\proyectofinal\src\colegiatura.cpp
+	"Colegiatura.h"
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+
