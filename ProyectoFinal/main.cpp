@@ -117,10 +117,11 @@ int main()
 				cout<<"\t\t\t| 1. Asignacion de cursos a alumnos  |"<<endl;
 				cout<<"\t\t\t| 2. Asignacion de maestros a cursos |"<<endl;
 				cout<<"\t\t\t| 3. Pago Colegiatura                |"<<endl;
-				cout<<"\t\t\t| 4. Pago de Certificados/Actas      |"<<endl;
-				cout<<"\t\t\t| 5. Regresar el menu anterior       |"<<endl;
+				cout<<"\t\t\t| 4. Registro de notas               |"<<endl;
+				cout<<"\t\t\t| 5. Pago de Certificados/Actas      |"<<endl;
+				cout<<"\t\t\t| 6. Regresar el menu anterior       |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t| Opcion a escoger:[1/2/3/4/5]       |"<<endl;
+				cout<<"\t\t\t| Opcion a escoger:[1/2/3/4/5/6]       |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\tIngresa tu Opcion: ";
 					cin >> opciones2;
@@ -145,10 +146,12 @@ int main()
 						}
 						case 4:
 							break;
-						case 5:
+							case 5:
+							break;
+						case 6:
 							break;
 					}
-				} while (repetir2,opciones2!= 5);
+				} while (repetir2,opciones2!= 6);
 
 				system("cls");
 

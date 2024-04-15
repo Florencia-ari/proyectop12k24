@@ -67,3 +67,63 @@
 	"Usuario.h"
 	<iostream>
 
+1713139915 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\colegiatura.cpp
+	"Colegiatura.h"
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+
+1713053671 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\colegiatura.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1713054001 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713054017 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\portadas.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713054012 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+	"Colegiatura.h"
+
+1713055476 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	"Portadas.h"
+	"Colegiatura.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
