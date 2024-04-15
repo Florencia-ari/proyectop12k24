@@ -8,6 +8,9 @@
 #include "Facultades.h"
 #include "Cursos.h"
 #include"registros.h"
+#include"Asignacionesca.h"
+#include"Horarios.h"
+#include"Jornada.h"
 
 
 
