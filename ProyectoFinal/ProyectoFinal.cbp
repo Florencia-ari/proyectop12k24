@@ -42,6 +42,7 @@
 		<Unit filename="include/Jornada.h" />
 		<Unit filename="include/Portadas.h" />
 		<Unit filename="include/Usuario.h" />
+		<Unit filename="include/registros.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Asignacionesca.cpp" />
 		<Unit filename="src/Colegiatura.cpp" />
@@ -51,6 +52,7 @@
 		<Unit filename="src/Jornada.cpp" />
 		<Unit filename="src/Portadas.cpp" />
 		<Unit filename="src/Usuario.cpp" />
+		<Unit filename="src/registros.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

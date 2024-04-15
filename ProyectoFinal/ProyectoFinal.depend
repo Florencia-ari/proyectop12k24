@@ -157,3 +157,106 @@
 	<conio.h>
 	<iomanip>
 
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario.h"
+	<string>
+	"Colegiatura.h"
+	"Facultades.h"
+	"Cursos.h"
+
+1713145308 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\portadas.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713145308 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713145308 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\colegiatura.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1713145308 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\facultades.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145308 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\cursos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\colegiatura.cpp
+	"Colegiatura.h"
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\cursos.cpp
+	"Cursos.h"
+
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\facultades.cpp
+	"Facultades.h"
+
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+	"Colegiatura.h"
+
+1713145308 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	"Portadas.h"
+	"Colegiatura.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1712987190 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\src\registros.cpp
+	"registros.h"
+
+1712789968 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectofinal\include\registros.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+

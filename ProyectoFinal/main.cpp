@@ -7,6 +7,7 @@
 #include "Colegiatura.h"
 #include "Facultades.h"
 #include "Cursos.h"
+#include"registros.h"
 
 
 
@@ -81,7 +82,7 @@ int main()
 					case 1:
 						{
 							registros registrosAC;
-    registroAC.menu();
+							registrosAC.menu();
 							break;
 						}
 					case 2:
