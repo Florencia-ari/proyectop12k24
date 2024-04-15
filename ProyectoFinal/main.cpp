@@ -5,6 +5,9 @@
 #include "Usuario.h"
 #include <string>
 #include "Colegiatura.h"
+#include "Facultades.h"
+#include "Cursos.h"
+
 
 
 using namespace std;
@@ -65,7 +68,8 @@ int main()
 				cout<<"\t\t\t| 2. Registro de Facultad            |"<<endl;
 				cout<<"\t\t\t| 3. Registro de cursos              |"<<endl;
 				cout<<"\t\t\t| 4. Registro de Horarios            |"<<endl;
-				cout<<"\t\t\t| 5. Regresar el menu anterior       |"<<endl;
+				cout<<"\t\t\t| 5. Registro de Jornada             |"<<endl;
+				cout<<"\t\t\t| 6. Regresar el menu anterior       |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| Opcion a escoger:[1/2/3/4/5]       |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
@@ -76,24 +80,42 @@ int main()
 					{
 					case 1:
 						{
+							registros registrosAC;
+    registroAC.menu();
 							break;
 						}
 					case 2:
 						{
+							Facultades facultad1;
+			facultad1.menu();
+
 							system("pause");
 							break;
 						}
 						case 3:
 						{
+							Cursos cursos1;
+    cursos1.menu();
+
 							system("pause");
 							break;
 						}
 						case 4:
+						{
+							  Horarios horario1;
+    horario1.menu();break;
+						}
+
+							case 5:
+						{
+							  Jornada jornada1;
+    jornada1.menu();
+						}
 							break;
-						case 5:
+						case 6:
 							break;
 					}
-				} while (repetir2,opciones2!= 5);
+				} while (repetir2,opciones2!= 6);
 
 				system("cls");
 				//____________________________________________________________________________________________________________________
@@ -130,6 +152,8 @@ int main()
 					{
 					case 1:
 						{
+							Asignacionesca Asignacion1;
+    Asignacion1.menu();
 							break;
 						}
 					case 2:
@@ -145,6 +169,12 @@ int main()
 							break;
 						}
 						case 4:
+							{
+								registro_notas registro1;
+    registro1.menu();
+							system("pause");
+							break;
+						}
 							break;
 							case 5:
 							break;

@@ -127,3 +127,33 @@
 	<conio.h>
 	<iomanip>
 
+1713142402 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario.h"
+	<string>
+	"Colegiatura.h"
+
+1713143051 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\cursos.cpp
+	"Cursos.h"
+
+1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\cursos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713143051 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\facultades.cpp
+	"Facultades.h"
+
+1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\facultades.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
