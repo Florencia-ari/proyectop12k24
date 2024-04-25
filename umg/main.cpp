@@ -37,17 +37,20 @@ int main()
         {
         case 1:
             {
+            	//oscar
 
 
                 break;
             }
         case 2:
             {
+            	//florencia
 
                 break;
             }
             case 3:
             {
+            	//isabel
 
                 system("pause");
                 break;

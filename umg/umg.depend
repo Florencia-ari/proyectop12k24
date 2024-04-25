@@ -21,3 +21,25 @@
 	"Portadas.h"
 	<string>
 
+1714077926 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	<string>
+
+1714077043 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714077043 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
