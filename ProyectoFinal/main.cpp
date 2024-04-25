@@ -11,6 +11,8 @@
 #include"Asignacionesca.h"
 #include"Horarios.h"
 #include"Jornada.h"
+#include"registro_notas.h"
+
 
 
 

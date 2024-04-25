@@ -66,10 +66,8 @@ void registros::menu()
 		break;
 		system("pause");
 	case 7:
-		exit(0);
-		system("pause");
-	default:
-		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+	break;
+
 	}
 	getch();
     }while(opcion!= 7);

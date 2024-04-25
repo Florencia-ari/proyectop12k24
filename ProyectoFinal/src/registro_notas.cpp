@@ -18,7 +18,6 @@ void registro_notas::menu()
 	cout<<"\t\t\t 1. Ingreso de Notas"<<endl;
 	cout<<"\t\t\t 2. Modificar Notas"<<endl;
 	cout<<"\t\t\t 3. Salir"<<endl;
-
 	cout<<"\t\t\t-------------------------------"<<endl;
 	cout<<"\t\t\tOpcion a escoger:[1/2/3]"<<endl;
 	cout<<"\t\t\t-------------------------------"<<endl;
@@ -36,7 +35,7 @@ void registro_notas::menu()
 		break;
 		system("pause");
 	case 3:
-		exit(0);
+
 		system("pause");
 	default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";

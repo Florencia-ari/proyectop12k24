@@ -56,7 +56,6 @@ void Horarios::menu()
 		break;
 		system("pause");
 	case 6:
-		exit(0);
 		system("pause");
 	default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";

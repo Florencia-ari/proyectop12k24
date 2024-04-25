@@ -67,7 +67,7 @@
 	"Usuario.h"
 	<iostream>
 
-1713139915 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\colegiatura.cpp
+1713971383 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\colegiatura.cpp
 	"Colegiatura.h"
 	"Portadas.h"
 	<fstream>
@@ -127,15 +127,22 @@
 	<conio.h>
 	<iomanip>
 
-1713142402 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
+1713149839 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
 	<iostream>
 	<unistd.h>
 	"Portadas.h"
 	"Usuario.h"
 	<string>
 	"Colegiatura.h"
+	"Facultades.h"
+	"Cursos.h"
+	"registros.h"
+	"Asignacionesca.h"
+	"Horarios.h"
+	"Jornada.h"
+	"registro_notas.h"
 
-1713143051 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\cursos.cpp
+1713971393 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\cursos.cpp
 	"Cursos.h"
 
 1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\cursos.h
@@ -146,7 +153,7 @@
 	<conio.h>
 	<iomanip>
 
-1713143051 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\facultades.cpp
+1713970451 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\facultades.cpp
 	"Facultades.h"
 
 1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\facultades.h
@@ -259,4 +266,59 @@
 	<cstdlib>
 	<conio.h>
 	<iomanip>
+
+1713972213 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\registros.cpp
+	"registros.h"
+
+1713146224 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\registros.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\asignacionesca.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\horarios.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\jornada.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713149917 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\registro_notas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713971730 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\asignacionesca.cpp
+	"Asignacionesca.h"
+
+1713970460 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\horarios.cpp
+	"Horarios.h"
+
+1713971683 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\jornada.cpp
+	"Jornada.h"
+
+1713993269 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\registro_notas.cpp
+	"registro_notas.h"
 

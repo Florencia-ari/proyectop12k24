@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1714077043 source:d:\proyecto programación\umg\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
+1714077043 d:\proyecto programación\umg\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714077926 source:d:\proyecto programación\umg\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	<string>
+

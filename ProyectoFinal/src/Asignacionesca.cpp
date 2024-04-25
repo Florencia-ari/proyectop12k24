@@ -23,7 +23,6 @@ void Asignacionesca::menu()
 	cout<<"\t\t\t 4. Busca De Asignaciones"<<endl;
 	cout<<"\t\t\t 5. Borra Asignaciones"<<endl;
 	cout<<"\t\t\t 6. Exit"<<endl;
-
 	cout<<"\t\t\t-------------------------------"<<endl;
 	cout<<"\t\t\tOpcion a escoger:[1/2/3/4/5/6]"<<endl;
 	cout<<"\t\t\t-------------------------------"<<endl;
@@ -58,13 +57,11 @@ void Asignacionesca::menu()
 		break;
 		system("pause");
 	case 6:
-		exit(0);
-		system("pause");
-	default:
-		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+		break;
+
 	}
 	getch();
-    }while(opcion!= 7);
+    }while(opcion!= 6);
 }
 
 void Asignacionesca::insertar()

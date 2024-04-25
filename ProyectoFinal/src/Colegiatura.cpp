@@ -37,24 +37,27 @@ void Colegiatura::menuColegiatura()
     {
     case 1:
         agregarColegiatura();
+        system("pause");
 		break;
 	case 2:
 		mostrarColegiatura();
+		system("pause");
 		break;
 	case 3:
 		modificarColegiatura();
+		system("pause");
 		break;
 	case 4:
 		buscarColegiatura();
+		system("pause");
 		break;
 	case 5:
 		borrarColegiatura();
+		system("pause");
 		break;
 	case 6:
 		break;
 		;
-	default:
-		cout<<"\n\t\t\t Opcion invalida.";
 		}
     }while(repetir,opcion!= 6);
     				system("cls");
@@ -217,7 +220,7 @@ void Colegiatura::menuColegiatura()
 	{
 		cout<<"\n Ingrese el Id del Alumno: ";
 		cin>>Colegiatura_id;
-		file1.open("Colegiatura.txt",ios::app | ios::out);
+		file1.open("Record.txt",ios::app | ios::out);
 		file >> id >> nombre >> apellido >> mes ;
 		while(!file.eof())
 		{
