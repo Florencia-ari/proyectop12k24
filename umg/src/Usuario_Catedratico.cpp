@@ -44,18 +44,14 @@ bool Usuario_Catedratico::VerificarUsuario()
     while(contador<3 && !encontrado)
     {
          system("cls");
-    cout <<"\t\t\t--------------------"<<endl;
-    cout <<"\t\t\t| LONGIN CATEDRATICO|"<<endl;
-    cout <<"\t\t\t---------------------"<<endl;
-
-    // Mostrar mensaje de advertencia
-    cout <<"\n\t\tSolo tienes permitido 3 intentos"<<endl;
-    cout <<"\t\t----------------------------------"<<endl;
-
-
-    cout << "\t\Ingrese el nombre de usuario:       ";
+    cout <<"\t\t\t+-----------------------------------+"<<endl;
+    cout <<"\t\t\t|       LONGIN CATEDRATICO          |"<<endl;
+    cout <<"\t\t\t+-----------------------------------+"<<endl;
+    cout <<"\t\t\t|Solo tienes permitido 3 intentos   |"<<endl;
+    cout <<"\t\t\t+-----------------------------------+"<<endl;
+    cout <<"\t\t\tIngrese el nombre de usuario: ";
     cin >> usuario;
-    cout << "\t\Ingrese la contrasena:              ";
+    cout <<"\t\t\tIngrese la contrasena: ";
     char caracter;
     caracter = getch();
 
@@ -87,7 +83,7 @@ bool Usuario_Catedratico::VerificarUsuario()
     //verificar si se abrio el archivo---------------------------
     if (!fileU_P)
     {
-        cout<<"No es posible abrir el archivo."<<endl;
+        cout<<"\n\t\t\t No es posible abrir el archivo."<<endl;
         fileU_P.close();
         return false;
     }
@@ -107,8 +103,8 @@ bool Usuario_Catedratico::VerificarUsuario()
     //si no encuentra user y pass , el contador incrementara------------------------
     if(!encontrado)
     {
-        cout << "\n\tUSUARIO Y/O CONTRASEÑA INCORRECTOS" << endl;
-        cout << "\n\tPerdio un intento, Intente de nuevo" << endl;
+        cout << "\n\n\t\t\tUSUARIO Y/O CONTRASEÑA INCORRECTOS" << endl;
+        cout << "\n\n\t\t\tPerdio un intento, Intente de nuevo\n" << endl;
         contador++;
         system("pause");
     }
@@ -117,13 +113,19 @@ bool Usuario_Catedratico::VerificarUsuario()
     //Si encuentra a user y pass , se retornara un true
    if (encontrado)
     {
-    cout << "\n\tBienvenido " << usuario << "!" << endl;
+    	         system("cls");
+
+    cout << "\n\t----- Bienvenido " << usuario << " -----" << endl;
+     system("pause");
     return true;
     }
    else
     {
-    cout << "\n\tPERDIO LOS 3 INTENTOS" << endl;
-    cout << "\n\tNO PODRA INGRESAR MAS INTENTOS" << endl;
+	system("cls");
+    cout << "\n\n\t\t\tPERDIO LOS 3 INTENTOS" << endl;
+     system("pause");
+     exit(0);
+
     return false;
     }
 

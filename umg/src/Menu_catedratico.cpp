@@ -1,5 +1,6 @@
 #include "Menu_catedratico.h"
 #include "Usuario_Catedratico.h"
+#include "Asignacionesmac.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -33,31 +34,35 @@ void Menu_catedratico::Menu_P()
         {
         	system("cls");
 
-    cout <<"\t\t\t--------------------------------------------"<<endl;
-    cout <<"\t\t\t |      BIENVENIDO AL MENU CATEDRATICO      |"<<endl;
-    cout <<"\t\t\t--------------------------------------------"<<endl;
-	cout<<"\t\t\t 1. Asignacion De Cursos"<<endl;
-	cout<<"\t\t\t 2. Registros De Notas"<<endl;
-	cout<<"\t\t\t 3. Estado De Cuenta"<<endl;
-	cout<<"\t\t\t 4. Actas"<<endl;
-	cout<<"\t\t\t 5. Exit"<<endl;
-
-	cout<<"\t\t\t-------------------------------"<<endl;
-	cout<<"\t\t\tOpcion a escoger:[1/2/3/4/5]"<<endl;
-	cout<<"\t\t\t-------------------------------"<<endl;
-	cout<<"Ingresa tu Opcion: ";
+    cout<<"\t\t\t+------------------------------------------+"<<endl;
+    cout<<"\t\t\t|      BIENVENIDO AL MENU CATEDRATICO      |"<<endl;
+    cout<<"\t\t\t+------------------------------------------+"<<endl;
+	cout<<"\t\t\t|1. Asignacion De Cursos                   |"<<endl;
+	cout<<"\t\t\t|2. Registros De Notas                     |"<<endl;
+	cout<<"\t\t\t|3. Estado De Cuenta                       |"<<endl;
+	cout<<"\t\t\t|4. Actas                                  |"<<endl;
+	cout<<"\t\t\t|5. Exit                                   |"<<endl;
+	cout<<"\t\t\t+------------------------------------------+"<<endl;
+	cout<<"\t\t\t|Opcion a escoger:[1/2/3/4/5]              |"<<endl;
+	cout<<"\t\t\t+------------------------------------------+"<<endl;
+	cout<<"\t\t\tIngresa tu Opcion: ";
     cin>>opcion;
     switch(opcion){
     case 1:
+    	Asignacionesmac asignacionesmac;
+		asignacionesmac.menuasignacion();
 
         break;
     case 2:
+    	//ingreso de notas
 
         break;
     case 3:
+    	//tesoreria
 
         break;
     case 4:
+    	//actas de notas
 
         break;
     case 5:

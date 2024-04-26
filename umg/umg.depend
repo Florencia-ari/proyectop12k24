@@ -21,10 +21,13 @@
 	"Portadas.h"
 	<string>
 
-1714079387 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\main.cpp
+1714164374 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\main.cpp
 	<iostream>
 	<unistd.h>
 	"Portadas.h"
+	"Usuario_Catedratico.h"
+	"Menu_catedratico.h"
+	"Asignacionesmac.h"
 	<string>
 
 1714077043 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\portadas.h
@@ -92,4 +95,51 @@
 	<iomanip>
 
 1714099188 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\include\menu_catedratico.h
+
+1714159671 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\usuario_catedratico.h
+	<iostream>
+	<fstream>
+	<string>
+
+1714159671 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\menu_catedratico.h
+
+1714164185 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\menu_catedratico.cpp
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	"Asignacionesmac.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714165134 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\usuario_catedratico.cpp
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714165711 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\asignacionesmac.cpp
+	"Asignacionesmac.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
+1714163826 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\asignacionesmac.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Portadas.h"
+	"Menu_catedratico.h"
 

@@ -3,6 +3,7 @@
 #include "Portadas.h"
 #include "Usuario_Catedratico.h"
 #include "Menu_catedratico.h"
+#include "Asignacionesmac.h"
 #include <string>
 
 using namespace std;
@@ -13,10 +14,6 @@ int main()
     portadas .dibujarPortada("portada.txt");
 
     Menu_catedratico menu_catedratico;
-
-
-
-
 
     int opciones;
     bool repetir = true;
@@ -51,7 +48,7 @@ int main()
             }
         case 2:
             {
-                //flor
+                //florencia
             	  menu_catedratico.Menu_P();
 
                 break;
