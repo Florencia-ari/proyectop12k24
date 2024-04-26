@@ -1,6 +1,8 @@
 #include <iostream>
 #include <unistd.h>
 #include "Portadas.h"
+#include "Usuario_Catedratico.h"
+#include "Menu_catedratico.h"
 #include <string>
 
 using namespace std;
@@ -9,6 +11,11 @@ int main()
 {
     Portadas portadas;
     portadas .dibujarPortada("portada.txt");
+
+    Menu_catedratico menu_catedratico;
+
+
+
 
 
     int opciones;
@@ -44,7 +51,8 @@ int main()
             }
         case 2:
             {
-            	//florencia
+                //flor
+            	  menu_catedratico.Menu_P();
 
                 break;
             }

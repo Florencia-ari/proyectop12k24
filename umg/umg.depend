@@ -43,3 +43,53 @@
 	<fstream>
 	<iostream>
 
+1714099796 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario_Catedratico.h"
+	"Menu_catedratico.h"
+	<string>
+
+1714080143 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714080143 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
+1714100878 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\src\usuario_catedratico.cpp
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714098963 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\include\usuario_catedratico.h
+	<iostream>
+	<fstream>
+	<string>
+
+1714100471 source:c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\src\menu_catedratico.cpp
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714099188 c:\users\victor\desktop\proyecto programacion\proyectop12k24\proyectop12k24\proyectop12k24\umg\include\menu_catedratico.h
+
