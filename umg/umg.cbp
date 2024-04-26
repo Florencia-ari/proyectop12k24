@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Menu_catedratico.h" />
 		<Unit filename="include/Portadas.h" />
+		<Unit filename="include/Usuario_Catedratico.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Menu_catedratico.cpp" />
 		<Unit filename="src/Portadas.cpp" />
+		<Unit filename="src/Usuario_Catedratico.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
