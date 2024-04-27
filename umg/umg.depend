@@ -215,3 +215,76 @@
 	<conio.h>
 	<iomanip>
 
+1714252836 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario_Catedratico.h"
+	"Menu_catedratico.h"
+	"Asignacionesmac.h"
+	<string>
+
+1714252836 c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714252836 c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\include\usuario_catedratico.h
+	<iostream>
+	<fstream>
+	<string>
+
+1714252836 c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\include\menu_catedratico.h
+
+1714253852 c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\include\asignacionesmac.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
+1714252836 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
+1714252836 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\src\usuario_catedratico.cpp
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714254245 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\src\menu_catedratico.cpp
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	"Asignacionesmac.h"
+	"Portadas.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714255003 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\proyectop12k24\umg\src\asignacionesmac.cpp
+	"Asignacionesmac.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
