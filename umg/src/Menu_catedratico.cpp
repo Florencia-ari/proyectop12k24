@@ -1,6 +1,7 @@
 #include "Menu_catedratico.h"
 #include "Usuario_Catedratico.h"
 #include "Asignacionesmac.h"
+#include "Portadas.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>

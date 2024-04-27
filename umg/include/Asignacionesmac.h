@@ -22,7 +22,7 @@ class Asignacionesmac
         void modificarasignacion();
         void buscarasignacion();
         void borrarasignacion();
-        string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
+        //string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
 
 	protected:
 

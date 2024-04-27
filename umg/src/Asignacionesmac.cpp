@@ -77,10 +77,11 @@ void Asignacionesmac::menuasignacion()
     string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
 
 	     //creacion variable file de la libreria fstream
-	cout<<"\n-----------------------------------------------------------------------------------------------";
-	cout<<"\n----------------------------------- Asignate a un curso ----------------------------"<<endl;
+    cout<<"\n----------------------------------------------------------------------------------";
+	cout<<"\n|                             Asignarse a un curso                               |";
+    cout<<"\n----------------------------------------------------------------------------------"<<endl;
 	//Ingreso de datos
-	cout<<"\t\t\tIngrese Codigo de maestro : ";
+	cout<<"\n\t\t\tIngrese Codigo de maestro : ";
 	cin>>codima;
 	cout<<"\t\t\tIngrese Nombre de Catedratico : ";
 	cin>>nombre;
@@ -97,7 +98,7 @@ void Asignacionesmac::menuasignacion()
         sede1="Portales";
         break;
     case 2:
-        sede1="Villa Nueva";
+        sede1="Villa_Nueva";
         break;
     case 3:
         sede1="Peten";
@@ -138,19 +139,19 @@ void Asignacionesmac::menuasignacion()
         cin>>cursos;
         switch(cursos){
     case 1:
-        cursos1="Fisica I";
+        cursos1="Fisica_I";
         break;
     case 2:
-        cursos1="Programacion I";
+        cursos1="Programacion_I";
         break;
     case 3:
-        cursos1="calculo I";
+        cursos1="Calculo_I";
         break;
     case 4:
-        cursos1="Proceso Administrativo";
+        cursos1="Proceso_Administrativo";
         break;
     case 5:
-        cursos1="Derecho informatico";
+        cursos1="Derecho_Informatico";
         break;
         default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
@@ -163,16 +164,16 @@ void Asignacionesmac::menuasignacion()
         cin>>cursos;
         switch(cursos){
     case 1:
-        cursos1="Derecho romano";
+        cursos1="Derecho_Romano";
         break;
     case 2:
-        cursos1="Derecho civil";
+        cursos1="Derecho_Civil";
         break;
     case 3:
-        cursos1="Derecho Penal";
+        cursos1="Derecho_Penal";
         break;
     case 4:
-        cursos1="Derecho Mercantil";
+        cursos1="Derecho_Mercantil";
         break;
     case 5:
         cursos1="Sociologia";
@@ -188,19 +189,19 @@ void Asignacionesmac::menuasignacion()
         cin>>cursos;
         switch(cursos){
     case 1:
-        cursos1="Dibujo arquitectonico II";
+        cursos1="Dibujo_Arquitectonico_II";
         break;
     case 2:
-        cursos1="Tecnicas de presentacion";
+        cursos1="Tecnicas_De_Presentacion";
         break;
     case 3:
-        cursos1="Diseno arquitectonico II";
+        cursos1="Diseno_Arquitectonico_II";
         break;
     case 4:
-        cursos1="Materiales de Construccion";
+        cursos1="Materiales_De_Construccion";
         break;
     case 5:
-        cursos1="Metodos de investigacion";
+        cursos1="Metodos_De_Investigacion";
         break;
     case 6:
         cursos1="Ecologia";
@@ -236,7 +237,7 @@ void Asignacionesmac::menuasignacion()
         break;}
 
     system("cls");
-	if (facu==1)
+	if (jornada==1)
     {
         Portadas imprimir6;
         imprimir6.imprimir("horarioMatu.txt");
@@ -244,18 +245,18 @@ void Asignacionesmac::menuasignacion()
         cin>>horario;
         switch(horario){
     case 1:
-        horario1="07:30 AM a 08:30 AM";
+        horario1="07:30_AM_a_08:30_AM";
         break;
     case 2:
-        horario1="08:30 AM a 10:00 AM";
+        horario1="08:30_AM_a_10:00_AM";
         break;
     case 3:
-        horario1="10:30 AM a 12:00 PM";
+        horario1="10:30_AM_a_12:00_PM";
         break;
         default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
         break;}
-    }else if(facu==2)
+    }else if(jornada==2)
     {
         Portadas imprimir7;
         imprimir7.imprimir("horarioVesp.txt");
@@ -263,18 +264,18 @@ void Asignacionesmac::menuasignacion()
         cin>>horario;
         switch(horario){
     case 1:
-        horario1="05:00 PM a 06:30 PM";
+        horario1="05:00_PM_a_06:30_PM";
         break;
     case 2:
-        horario1="06:30 PM a 08:00 PM";
+        horario1="06:30_PM_a_08:00_PM";
         break;
     case 3:
-        horario1="08:30 PM a 10:00 PM";
+        horario1="08:30_PM_a_10:00_PM";
         break;
         default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
         break;}
-    }else if(facu==3)
+    }else if(jornada==3)
     {
         Portadas imprimir8;
         imprimir8.imprimir("horarioSaba.txt");
@@ -282,24 +283,24 @@ void Asignacionesmac::menuasignacion()
         cin>>horario;
         switch(horario){
     case 1:
-        horario1="07:30 AM a 08:30 AM";
+        horario1="07:30_AM_a_08:30_AM";
         break;
     case 2:
-        horario1="08:30 AM a 10:00 AM";
+        horario1="08:30_AM_a_10:00_AM";
         break;
     case 3:
-        horario1="10:30 AM a 12:00 PM";
+        horario1="10:30_AM_a_12:00_PM";
         break;
     case 4:
-        horario1="12:00 PM a 01:30 PM";
+        horario1="12:00_PM_a_01:30_PM";
         break;
     case 5:
-        horario1="02:00 PM a 03:30 PM";
+        horario1="02:00_PM_a_03:30_PM";
         break;
         default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
         break;}
-    }else if(facu==4)
+    }else if(jornada==4)
     {
         Portadas imprimir9;
         imprimir9.imprimir("horarioDomi.txt");
@@ -307,19 +308,19 @@ void Asignacionesmac::menuasignacion()
         cin>>horario;
         switch(horario){
     case 1:
-        horario1="07:30 AM a 08:30 AM";
+        horario1="07:30_AM_a_08:30_AM";
         break;
     case 2:
-        horario1="08:30 AM a 10:00 AM";
+        horario1="08:30_AM_a_10:00_AM";
         break;
     case 3:
-        horario1="10:30 AM a 12:00 PM";
+        horario1="10:30_AM_a_12:00_PM";
         break;
     case 4:
-        horario1="12:00 PM a 01:30 PM ";
+        horario1="12:00_PM_a_01:30_PM";
         break;
     case 5:
-        horario1="02:00 PM a 03:30 PM";
+        horario1="02:00_PM_a_03:30_PM";
         break;
         default:
 		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
@@ -336,28 +337,395 @@ void Asignacionesmac::menuasignacion()
 
 }
 
- void Asignacionesmac::mostrarasignacion(){
+ void Asignacionesmac::mostrarasignacion()
+{
+    string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
+    system("cls");
+	fstream file;
+	int total=0;
+	cout<<"\n-------------------------Imprimir Informe de Asignaciones-------------------------"<<endl;
+	file.open("Asignaciones.txt",ios::in);
+	if(!file)
+	{
+		cout<<"\n\t\t\tNo hay información...";
+		file.close();
+	}
+	else
+	{
+        file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
 
+		while(!file.eof())
+		{
+			total++;
+			cout<<"\n\t\t\t     Codigo Maestro         : "<<codima<<endl;
+			cout<<"\t\t\t     Nombre Maestro         : "<<nombre<<endl;
+			cout<<"\t\t\t     Apellido Maestro       : "<<apellido<<endl;
+			cout<<"\t\t\t     Sede                   : "<<sede1;
+			cout<<"\n\t\t\t     Facultad               : "<<facu1;
+			cout<<"\n\t\t\t     Curso                  : "<<cursos1<<endl;
+            cout<<"\t\t\t     Jornada                : "<<jornada1<<endl;
+			cout<<"\t\t\t     Horario                : "<<horario1<<endl<<endl<<endl;
+            file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
+
+		}
+		if(total==0)
+		{
+			cout<<"\n\t\t\tNo hay informacion...";
+		}
+	}
+	file.close();
 }
 
  void Asignacionesmac::modificarasignacion()
 {
+    system("cls");
+    string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
+    int facu,sede,cursos,jornada,horario;
+	fstream file,file1;
+	string participant_id;
+	int found=0;
+	cout<<"\n------------------------Modificacion de Asignaciones-----------------------"<<endl;
+	file.open("Asignaciones.txt",ios::in);
+	if(!file)
+	{
+		cout<<"\n\t\t\tNo hay informacion..,";
+		file.close();
+	}
+	else
+	{
+		cout<<"\n Ingrese Codigo de Maestro para modificar su Asignacion: ";
+		cin>>participant_id;
+		file1.open("Record.txt",ios::app | ios::out);
+        file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
+		while(!file.eof())
+		{
+			if(participant_id!=codima)
+			{
+             file1<<std::left<<std::setw(15)<< codima <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apellido <<std::left<<std::setw(15)<< sede1 <<std::left<<std::setw(15)<< facu1 <<std::left<<std::setw(35)<< cursos1 <<std::left<<std::setw(15)<< jornada1 <<std::left<<std::setw(20)<< horario1 << "\n";
+			}
+			else
+			{
+			    //inicia captura de datos, igual que en el ingreso, (bloque reutilizado)
 
+
+				cout<<"\n\t\t\tIngrese Codigo de maestro : ";
+	cin>>codima;
+	cout<<"\t\t\tIngrese Nombre de Catedratico : ";
+	cin>>nombre;
+	cout<<"\t\t\tIngrese Apellido de Catedratico  : ";
+	cin>>apellido;
+	system("pause");
+    system("cls");
+	Portadas imprimir1;
+	imprimir1.imprimir("sede.txt");
+	cout<<"\t\t\tIngrese sede: ";
+	cin>>sede;
+	switch(sede){
+    case 1:
+        sede1="Portales";
+        break;
+    case 2:
+        sede1="Villa_Nueva";
+        break;
+    case 3:
+        sede1="Peten";
+        break;
+    case 4:
+        sede1="Chiquimula";
+        break;
+    case 5:
+        sede1="Sanarate";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    system("cls");
+	Portadas imprimir;
+	imprimir.imprimir("Facultad.txt");
+	cout<<"\t\t\tIngrese Facultad: ";
+	cin>>facu;
+	switch(facu){
+    case 1:
+        facu1="Ingenieria";
+        break;
+    case 2:
+        facu1="Derecho";
+        break;
+    case 3:
+        facu1="Arquitectura";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    system("cls");
+	if (facu==1)
+    {
+        Portadas imprimir2;
+        imprimir2.imprimir("cursoIng.txt");
+        cout<<"\t\t\tIngrese opcion de curso: ";
+        cin>>cursos;
+        switch(cursos){
+    case 1:
+        cursos1="Fisica_I";
+        break;
+    case 2:
+        cursos1="Programacion_I";
+        break;
+    case 3:
+        cursos1="calculo_I";
+        break;
+    case 4:
+        cursos1="Proceso_Administrativo";
+        break;
+    case 5:
+        cursos1="Derecho_Informatico";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else if(facu==2)
+    {
+        Portadas imprimir3;
+        imprimir3.imprimir("cursosEnf.txt");
+        cout<<"\t\t\tIngrese opcion de curso: ";
+        cin>>cursos;
+        switch(cursos){
+    case 1:
+        cursos1="Derecho_Romano";
+        break;
+    case 2:
+        cursos1="Derecho_Civil";
+        break;
+    case 3:
+        cursos1="Derecho_Penal";
+        break;
+    case 4:
+        cursos1="Derecho_Mercantil";
+        break;
+    case 5:
+        cursos1="Sociologia";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else if(facu==3)
+    {
+        Portadas imprimir4;
+        imprimir4.imprimir("cursosArqui.txt");
+        cout<<"\t\t\tIngrese opcion de curso: ";
+        cin>>cursos;
+        switch(cursos){
+    case 1:
+        cursos1="Dibujo_Arquitectonico_II";
+        break;
+    case 2:
+        cursos1="Tecnicas_de_Presentacion";
+        break;
+    case 3:
+        cursos1="Diseno_Arquitectonico_II";
+        break;
+    case 4:
+        cursos1="Materiales_de_Construccion";
+        break;
+    case 5:
+        cursos1="Metodos_de_Investigacion";
+        break;
+    case 6:
+        cursos1="Ecologia";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else
+    {
+        cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+    }
+    system("cls");
+
+    Portadas imprimir5;
+	imprimir5.imprimir("Jornada.txt");
+	cout<<"\t\t\tIngrese opcion de Jornada: ";
+	cin>>jornada;
+	switch(jornada){
+    case 1:
+        jornada1="Matutina";
+        break;
+    case 2:
+        jornada1="Vespertina";
+        break;
+    case 3:
+        jornada1="Sabado";
+        break;
+    case 4:
+        jornada1="Domingo";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+
+    system("cls");
+	if (jornada==1)
+    {
+        Portadas imprimir6;
+        imprimir6.imprimir("horarioMatu.txt");
+        cout<<"\t\t\tIngrese opcion de Horario: ";
+        cin>>horario;
+        switch(horario){
+    case 1:
+        horario1="07:30_AM_a_08:30_AM";
+        break;
+    case 2:
+        horario1="08:30_AM_a_10:00_AM";
+        break;
+    case 3:
+        horario1="10:30_AM_a_12:00_PM";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else if(jornada==2)
+    {
+        Portadas imprimir7;
+        imprimir7.imprimir("horarioVesp.txt");
+        cout<<"\t\t\tIngrese opcion de Horario: ";
+        cin>>horario;
+        switch(horario){
+    case 1:
+        horario1="05:00_PM_a_06:30_PM";
+        break;
+    case 2:
+        horario1="06:30_PM_a_08:00_PM";
+        break;
+    case 3:
+        horario1="08:30_PM_a_10:00_PM";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else if(jornada==3)
+    {
+        Portadas imprimir8;
+        imprimir8.imprimir("horarioSaba.txt");
+        cout<<"\t\t\tIngrese opcion de Horario: ";
+        cin>>horario;
+        switch(horario){
+    case 1:
+        horario1="07:30_AM_a_08:30_AM";
+        break;
+    case 2:
+        horario1="08:30_AM_a_10:00_AM";
+        break;
+    case 3:
+        horario1="10:30_AM_a_12:00_PM";
+        break;
+    case 4:
+        horario1="12:00_PM_a_01:30_PM";
+        break;
+    case 5:
+        horario1="02:00_PM_a_03:30_PM";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else if(jornada==4)
+    {
+        Portadas imprimir9;
+        imprimir9.imprimir("horarioDomi.txt");
+        cout<<"\t\t\tIngrese opcion de Horario: ";
+        cin>>horario;
+        switch(horario){
+    case 1:
+        horario1="07:30_AM_a_08:30_AM";
+        break;
+    case 2:
+        horario1="08:30_AM_a_10:00_AM";
+        break;
+    case 3:
+        horario1="10:30_AM_a_12:00_PM";
+        break;
+    case 4:
+        horario1="12:00_PM_a_01:30_PM";
+        break;
+    case 5:
+        horario1="02:00_PM_a_03:30_PM";
+        break;
+        default:
+		cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+        break;}
+    }else
+    {
+        cout<<"\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
+    }
+    system("cls");
+
+
+                //termina captura de datos, se mandan a file1
+                file1<<std::left<<std::setw(15)<< codima <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apellido <<std::left<<std::setw(15)<< sede1 <<std::left<<std::setw(15)<< facu1 <<std::left<<std::setw(35)<< cursos1 <<std::left<<std::setw(15)<< jornada1 <<std::left<<std::setw(20)<< horario1 << "\n";
+				found++;
+			}
+            file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
+		}
+		file1.close();
+		file.close();
+		remove("Asignaciones.txt");
+		rename("Record.txt","Asignaciones.txt");
+	}
 }
 
  void Asignacionesmac::buscarasignacion()
 {
-
+    system("cls");
+    string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
+	fstream file;
+	int found=0;
+	file.open("Asignaciones.txt",ios::in);
+	if(!file)
+	{
+		cout<<"\n----------------------Datos de Asignacion Buscada---------------------"<<endl;
+		cout<<"\n\t\t\tNo hay informacion...";
+	}
+	else
+	{
+		string participant_id;
+		cout<<"\n----------------------Datos de Asignacion Buscada---------------------"<<endl;
+		cout<<"\nIngrese Codigo del Maestro para buscar su Asignacion: ";
+		cin>>participant_id;
+		file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
+		while(!file.eof())
+		{
+			if(participant_id==codima)
+			{
+				cout<<"\n\n"<<endl;
+				cout<<"\t\t Busqueda Exitosa!" << endl;
+				cout<<"\n\n"<<endl;
+				cout<<"\n\t\t\t Codigo            : "<<codima<<endl;
+                cout<<"\t\t\t Nombre            : "<<nombre<<endl;
+                cout<<"\t\t\t Apellido          : "<<apellido<<endl;
+                cout<<"\t\t\t Sede              : "<<sede1<<endl;
+                cout<<"\t\t\t Facultad          : "<<facu1<<endl;
+                cout<<"\t\t\t Curso             : "<<cursos1<<endl;
+                cout<<"\t\t\t Jornada           : "<<jornada1<<endl;
+                cout<<"\t\t\t Horario           : "<<horario1<<endl<<endl<<endl;
+				found++;
+			}
+            file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
+		}
+		if(found==0)
+		{
+			cout<<"\n\t\t\t Asignacion no encontrada...";
+		}
+		file.close();
+	}
 }
 
  void Asignacionesmac::borrarasignacion()
 {
-    //string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
+    string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
 	system("cls");
 	fstream file,file1;
 	string participant_id;
 	int found=0;
-	cout<<"\n-------------------------Baja (Borrado) del Empleado-------------------------"<<endl;
+	cout<<"\n-------------------------Baja (Borrado) de Asignaciones-------------------------"<<endl;
 	file.open("Asignaciones.txt",ios::in);
 	if(!file)
 	{
@@ -366,23 +734,21 @@ void Asignacionesmac::menuasignacion()
 	}
 	else
 	{
-		cout<<"\n Ingrese el codigo de la Persona que quiere borrar: ";
+		cout<<"\n Ingrese codigo de Maestro para borrar la Asignacion: ";
 		cin>>participant_id;
 		file1.open("Record.txt",ios::app | ios::out);
-
 		file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
-		//file >> id >> sucursal >> name >> adress >> phone >> code >> contrasenas;
 		while(!file.eof())
 		{
 			if(participant_id!= codima)
 			{
-                file <<std::left<<std::setw(15)<< codima <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apellido <<std::left<<std::setw(15)<< sede1 <<std::left<<std::setw(15)<< facu1 <<std::left<<std::setw(35)<< cursos1 <<std::left<<std::setw(15)<< jornada1 <<std::left<<std::setw(20)<< horario1 << "\n";
+                file1<<std::left<<std::setw(15)<< codima <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apellido <<std::left<<std::setw(15)<< sede1 <<std::left<<std::setw(15)<< facu1 <<std::left<<std::setw(35)<< cursos1 <<std::left<<std::setw(15)<< jornada1 <<std::left<<std::setw(20)<< horario1 << "\n";
 
 			}
 			else
 			{
 				found++;
-				cout << "\n\t\t\tBorrado de informacion exitoso";
+				cout << "\n\t\t\tBorrado de informacion exitoso, ";
 			}
 			file >> codima >> nombre >> apellido >> sede1 >> facu1 >> cursos1 >> jornada1 >> horario1;
 		}
@@ -395,9 +761,4 @@ void Asignacionesmac::menuasignacion()
 		remove("Asignaciones.txt");
 		rename("Record.txt","Asignaciones.txt");
 	}
-
-
-
-
-
 }
