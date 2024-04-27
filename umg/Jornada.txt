@@ -1,0 +1,9 @@
+   ---------------Jornadas Disponibles--------------
+
+	      -----------------------------
+	      | 1. | Matutina             |
+	      | 2. | Vespertina           |
+	      | 3. | Plan Fin de Semana   |
+	      | 4. | Plan Sabado          |
+	      | 5. | Plan Domingo         |
+              -----------------------------

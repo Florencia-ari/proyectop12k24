@@ -1,0 +1,10 @@
+			------------Carreras Disponibles-----------
+
+			-------------------------------------------		
+			| No. |           Carrera                 |
+			-------------------------------------------
+			|  1. |       Ingeniería en Sistemas      |
+			|  2. |     Licenciatura en Enfermeria    |
+			|  3. |    Licenciatura en Arquitectura   |
+			-------------------------------------------
+		

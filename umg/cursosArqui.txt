@@ -1,0 +1,12 @@
+           -----------------------Cursos Disponibles--------------------------
+
+ 	------------------------------------------------------------------------
+	|  Codigo  |        Curso                    | Creditos |  Requisitos  |
+	------------------------------------------------------------------------
+	|   011    |    Dibujo Arquitectonico II     |     4    |      005     |
+	|   015    |    Tecnicas de Presentacion     |     3    |      009     |
+	|   105	   |    Diseño Arquitectonico II     |     6    |      013     |
+	|   301    |   Materiales de Construcción    |     4    |      000     |
+	|   705    |    Metodos de Investigacion     |     4    |      701     |
+	|   801    |            Ecologia             |     4    |      000     |
+	------------------------------------------------------------------------
