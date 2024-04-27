@@ -21,7 +21,7 @@
 	"Portadas.h"
 	<string>
 
-1714164374 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\main.cpp
+1714166040 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\main.cpp
 	<iostream>
 	<unistd.h>
 	"Portadas.h"
@@ -30,7 +30,7 @@
 	"Asignacionesmac.h"
 	<string>
 
-1714077043 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\portadas.h
+1714235493 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\portadas.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -39,7 +39,7 @@
 	<iomanip>
 	<string>
 
-1714077043 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\portadas.cpp
+1714235493 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\portadas.cpp
 	"Portadas.h"
 	<fstream>
 	<unistd.h>
@@ -103,7 +103,7 @@
 
 1714159671 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\menu_catedratico.h
 
-1714164185 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\menu_catedratico.cpp
+1714235493 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\menu_catedratico.cpp
 	"Menu_catedratico.h"
 	"Usuario_Catedratico.h"
 	"Asignacionesmac.h"
@@ -114,7 +114,7 @@
 	<conio.h>
 	<iomanip>
 
-1714165134 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\usuario_catedratico.cpp
+1714166040 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\usuario_catedratico.cpp
 	"Usuario_Catedratico.h"
 	<iostream>
 	<fstream>
@@ -123,7 +123,7 @@
 	<conio.h>
 	<iomanip>
 
-1714165711 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\asignacionesmac.cpp
+1714235493 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\src\asignacionesmac.cpp
 	"Asignacionesmac.h"
 	<fstream>
 	<unistd.h>
@@ -132,7 +132,7 @@
 	"Portadas.h"
 	"Menu_catedratico.h"
 
-1714163826 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\asignacionesmac.h
+1714235493 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\umg\include\asignacionesmac.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
