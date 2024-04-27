@@ -9,6 +9,7 @@
 #include<string>
 #include "Portadas.h"
 #include "Menu_catedratico.h"
+using namespace std;
 
 
 
@@ -21,10 +22,12 @@ class Asignacionesmac
         void modificarasignacion();
         void buscarasignacion();
         void borrarasignacion();
+        string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
 
 	protected:
 
 	private:
+//string facu1,sede1,cursos1,jornada1,horario1,codima,nombre,apellido;
 
 };
 

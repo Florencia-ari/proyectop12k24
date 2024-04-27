@@ -143,3 +143,75 @@
 	"Portadas.h"
 	"Menu_catedratico.h"
 
+1714173435 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario_Catedratico.h"
+	"Menu_catedratico.h"
+	"Asignacionesmac.h"
+	<string>
+
+1714191252 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714173435 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\include\usuario_catedratico.h
+	<iostream>
+	<fstream>
+	<string>
+
+1714173435 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\include\menu_catedratico.h
+
+1714200516 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\include\asignacionesmac.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
+1714200360 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\src\asignacionesmac.cpp
+	"Asignacionesmac.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
+1714173435 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\src\menu_catedratico.cpp
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	"Asignacionesmac.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714192389 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
+1714173435 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\proyecto\proyectop12k24\umg\src\usuario_catedratico.cpp
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+

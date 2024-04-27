@@ -18,6 +18,7 @@ class Portadas
 	public:
 
 	void dibujarPortada(string nombreArchivo);
+	void imprimir(string nombreArchivo);
 };
 
 #endif // PORTADAS_H

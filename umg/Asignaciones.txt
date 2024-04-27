@@ -1,0 +1,5 @@
+145            Pablo          Palencia       Villa Nueva    Derecho        Derecho Penal            Sabado         05:00 PM a 06:30 PM 
+025            Florencia      Ariaga         Chiquimula     Derecho        Sociologia               Matutina       06:30 PM a 08:00 PM 
+852            Victor         Gomez          Peten          Ingenieria     calculo I                Vespertina     10:30 AM a 12:00 PM 
+899            Alisson        Lopez          Villa Nueva    Arquitectura   Materiales de ConstruccionDomingo        12:00 PM a 01:30 PM 
+565            Cristian       Sipac          Sanarate       Derecho        Derecho Penal                      Sabado         06:30 PM a 08:00 PM 

@@ -47,15 +47,14 @@ void Menu_catedratico::Menu_P()
 	cout<<"\t\t\t+------------------------------------------+"<<endl;
 	cout<<"\t\t\tIngresa tu Opcion: ";
     cin>>opcion;
+
     switch(opcion){
     case 1:
-    	Asignacionesmac asignacionesmac;
-		asignacionesmac.menuasignacion();
-
+    	Asignacionesmac asignacionesmac1;
+		asignacionesmac1.menuasignacion();
         break;
     case 2:
-    	//ingreso de notas
-
+    	cout<<"ingreso de notas";
         break;
     case 3:
     	//tesoreria

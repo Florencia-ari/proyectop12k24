@@ -3,7 +3,6 @@
 	      -----------------------------
 	      | 1. | Matutina             |
 	      | 2. | Vespertina           |
-	      | 3. | Plan Fin de Semana   |
-	      | 4. | Plan Sabado          |
-	      | 5. | Plan Domingo         |
+	      | 3. | Plan Sabado          |
+	      | 4. | Plan Domingo         |
               -----------------------------
