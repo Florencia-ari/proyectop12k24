@@ -1,0 +1,6 @@
+145            Pablo          Palencia       Villa_Nueva    Derecho        Derecho_Penal                      Sabado         05:00_PM_a_06:30_PM 
+025            Florencia      Ariaga         Chiquimula     Ingenieria     calculo_I                          Domingo        07:30_AM_a_08:30_AM 
+178            Kathia         Contreras      Villa_Nueva    Arquitectura   Materiales_De_Construccion         Sabado         12:00_PM_a_01:30_PM 
+020            Victor         Gomez          Peten          Derecho        Sociologia                         Domingo        12:00_PM_a_01:30_PM 
+265            Alisson        Lopez          Sanarate       Ingenieria     Proceso_Administrativo             Vespertina     06:30_PM_a_08:00_PM 
+22             kathia         Contreras      Villa_Nueva    Derecho        Sociologia                         Domingo        12:00_PM_a_01:30_PM 
