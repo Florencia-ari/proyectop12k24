@@ -322,3 +322,152 @@
 1713993269 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\registro_notas.cpp
 	"registro_notas.h"
 
+1713149839 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Usuario.h"
+	<string>
+	"Colegiatura.h"
+	"Facultades.h"
+	"Cursos.h"
+	"registros.h"
+	"Asignacionesca.h"
+	"Horarios.h"
+	"Jornada.h"
+	"registro_notas.h"
+
+1713054017 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\portadas.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713054001 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Colegiatura.h"
+
+1713053671 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\colegiatura.h
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\facultades.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713143051 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\cursos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713146224 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\registros.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\asignacionesca.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\horarios.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713145967 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\jornada.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713149917 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\include\registro_notas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713971383 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\colegiatura.cpp
+	"Colegiatura.h"
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+
+1713971393 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\cursos.cpp
+	"Cursos.h"
+
+1713970451 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\facultades.cpp
+	"Facultades.h"
+
+1713970460 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\horarios.cpp
+	"Horarios.h"
+
+1713971683 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\jornada.cpp
+	"Jornada.h"
+
+1713054012 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Usuario.h"
+	<iostream>
+	"Colegiatura.h"
+
+1713993269 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\registro_notas.cpp
+	"registro_notas.h"
+
+1713972213 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\registros.cpp
+	"registros.h"
+
+1713055476 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyecto\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	"Portadas.h"
+	"Colegiatura.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
