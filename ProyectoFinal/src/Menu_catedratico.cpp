@@ -3,6 +3,7 @@
 #include "Asignacionesmac.h"
 #include "Portadas.h"
 #include "Facultad.h"
+#include "Cursos.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>

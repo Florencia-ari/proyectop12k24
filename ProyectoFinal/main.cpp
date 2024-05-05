@@ -5,7 +5,7 @@
 #include "Menu_catedratico.h"
 #include "Usuario_Catedratico.h"
 #include "Facultad.h"
-
+#include "Cursos.h"
 #include <string>
 
 using namespace std;
@@ -74,9 +74,11 @@ int main()
 
 						}
 						break;
-						case 2:
+                    case 2:
 						{
-							  //ALISSON
+                        Cursos curso;
+                        curso.menuCursos();
+                        system("pause");
 
 						}
 						break;

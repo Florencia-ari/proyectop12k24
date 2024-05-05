@@ -91,3 +91,114 @@
 	<iostream>
 	"Portadas.h"
 
+1714884167 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\main.cpp
+	<iostream>
+	<unistd.h>
+	"Portadas.h"
+	"Asignacionesmac.h"
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	"Facultad.h"
+	<string>
+
+1714884167 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\portadas.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714884167 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\asignacionesmac.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Portadas.h"
+	"Menu_catedratico.h"
+
+1714884167 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\menu_catedratico.h
+
+1714884167 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\usuario_catedratico.h
+	<iostream>
+	<fstream>
+	<string>
+
+1714884167 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\facultad.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1714888561 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\asignacionesmac.cpp
+	"Asignacionesmac.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+	"Menu_catedratico.h"
+	"Facultad.h"
+	"Cursos.h"
+
+1714888561 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\menu_catedratico.cpp
+	"Menu_catedratico.h"
+	"Usuario_Catedratico.h"
+	"Asignacionesmac.h"
+	"Portadas.h"
+	"Facultad.h"
+	"Cursos.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+
+1714884167 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\portadas.cpp
+	"Portadas.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+
+1714884167 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\usuario_catedratico.cpp
+	"Usuario_Catedratico.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1714884167 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\facultad.cpp
+	"Facultad.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+
+1714890292 source:c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\src\cursos.cpp
+	"Cursos.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	<iostream>
+	"Portadas.h"
+
+1714890554 c:\users\gaby\desktop\umg\proyectop12k24\proyectofinal\include\cursos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+

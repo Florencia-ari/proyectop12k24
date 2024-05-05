@@ -6,6 +6,7 @@
 #include "Portadas.h"
 #include "Menu_catedratico.h"
 #include "Facultad.h"
+#include "Cursos.h"
 
 
 
