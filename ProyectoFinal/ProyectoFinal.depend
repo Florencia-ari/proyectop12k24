@@ -15,7 +15,7 @@
 	<iomanip>
 	<string>
 
-1714871808 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
+1714879227 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
 	<iostream>
 	<unistd.h>
 	"Portadas.h"
@@ -25,7 +25,7 @@
 	"Facultad.h"
 	<string>
 
-1714870232 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\menu_catedratico.cpp
+1714879227 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\menu_catedratico.cpp
 	"Menu_catedratico.h"
 	"Usuario_Catedratico.h"
 	"Asignacionesmac.h"
@@ -64,7 +64,7 @@
 	<conio.h>
 	<iomanip>
 
-1714866465 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\asignacionesmac.cpp
+1714879227 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\asignacionesmac.cpp
 	"Asignacionesmac.h"
 	<fstream>
 	<unistd.h>
@@ -74,7 +74,7 @@
 	"Menu_catedratico.h"
 	"Facultad.h"
 
-1714870282 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\facultad.h
+1714879227 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\facultad.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -83,7 +83,7 @@
 	<iomanip>
 	<string>
 
-1714871826 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\facultad.cpp
+1714879227 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\facultad.cpp
 	"Facultad.h"
 	<fstream>
 	<unistd.h>
