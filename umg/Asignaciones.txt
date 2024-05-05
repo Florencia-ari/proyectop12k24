@@ -4,3 +4,6 @@
 020            Victor         Gomez          Peten          Derecho        Sociologia                         Domingo        12:00_PM_a_01:30_PM 
 265            Alisson        Lopez          Sanarate       Ingenieria     Proceso_Administrativo             Vespertina     06:30_PM_a_08:00_PM 
 22             kathia         Contreras      Villa_Nueva    Derecho        Sociologia                         Domingo        12:00_PM_a_01:30_PM 
+2              juan           poz            Portales       Derecho        Sociologia                         Vespertina     05:00_PM_a_06:30_PM 
+67412          juan           lopez          Villa_Nueva    Derecho        Derecho_Civil                      Vespertina     06:30_PM_a_08:00_PM 
+67413          noh            lkj            Villa_Nueva    Arquitectura   Diseno_Arquitectonico_II           Sabado         10:30_AM_a_12:00_PM 

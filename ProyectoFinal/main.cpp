@@ -4,6 +4,7 @@
 #include "Asignacionesmac.h"
 #include "Menu_catedratico.h"
 #include "Usuario_Catedratico.h"
+#include "Facultad.h"
 
 #include <string>
 
@@ -56,7 +57,7 @@ int main()
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| 1. CRUD JORNADAS                   |"<<endl;
 				cout<<"\t\t\t| 2. CRUD CURSOS                     |"<<endl;
-				cout<<"\t\t\t| 3. Salir                           |"<<endl;
+				cout<<"\t\t\t| 3. Salir del menu                  |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| Opcion a escoger:[1/2/3]           |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
@@ -67,7 +68,9 @@ int main()
 					{
 					case 1:
 						{
-							//FLOR
+						Facultad facultad;
+		                facultad.menuFacultad();
+		                system("pause");
 
 						}
 						break;
@@ -105,7 +108,7 @@ int main()
 				cout<<"\t\t\t|              PROCESOS              |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| 1. Asignacion maestros a cursos    |"<<endl;
-				cout<<"\t\t\t| 2. Salir                           |"<<endl;
+				cout<<"\t\t\t| 2. Salir del menu                  |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| Opcion a escoger:[1/2]             |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;

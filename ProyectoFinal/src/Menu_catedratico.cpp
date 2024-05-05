@@ -2,12 +2,13 @@
 #include "Usuario_Catedratico.h"
 #include "Asignacionesmac.h"
 #include "Portadas.h"
+#include "Facultad.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
 #include<cstdlib>
 #include<conio.h>
-#include<iomanip>
+
 using namespace std;
 Menu_catedratico::Menu_catedratico()
 {
