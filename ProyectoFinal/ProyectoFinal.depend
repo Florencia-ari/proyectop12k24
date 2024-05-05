@@ -66,7 +66,7 @@
 	<conio.h>
 	<iomanip>
 
-1714879227 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\asignacionesmac.cpp
+1714892638 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\asignacionesmac.cpp
 	"Asignacionesmac.h"
 	<fstream>
 	<unistd.h>
@@ -74,7 +74,6 @@
 	<iostream>
 	"Portadas.h"
 	"Menu_catedratico.h"
-	"Facultad.h"
 
 1714879227 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\facultad.h
 	<iostream>

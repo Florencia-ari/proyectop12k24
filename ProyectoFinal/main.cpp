@@ -55,8 +55,8 @@ int main()
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t|              CATALOGOS             |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t| 1. CRUD JORNADAS                   |"<<endl;
-				cout<<"\t\t\t| 2. CRUD CURSOS                     |"<<endl;
+				cout<<"\t\t\t| 1. CRUD Facultades                 |"<<endl;
+				cout<<"\t\t\t| 2. CRUD cursos                     |"<<endl;
 				cout<<"\t\t\t| 3. Salir del menu                  |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| Opcion a escoger:[1/2/3]           |"<<endl;
