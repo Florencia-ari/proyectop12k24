@@ -30,15 +30,19 @@ int choice;
     {
 	case 1:
         IngresarCa();
+         system("pause");
 		break;
     case 2:
         ModificarCa();
+         system("pause");
 		break;
     case 3:
         BorrarCa();
+         system("pause");
 		break;
     case 4:
         DesplegarCa();
+        system("pause");
 		break;
     case 5:
 		break;
@@ -67,10 +71,8 @@ void CursosCRUD::IngresarCa() {
     cout << "Ingrese los Creditos del Curso: ";
     cin.getline(Curso.Creditos, 50);
 
-   // cout << "Ingrese los Prerequisitos del curso: ";
-   // cin.getline(Curso.Requisitos, 50);
 
-    ofstream archivo("Cursos.bin", ios::binary | ios::app);
+    ofstream archivo("Cursoss.bin", ios::binary | ios::app);
     archivo.write(reinterpret_cast<const char*>(&Curso), sizeof(Curso));
     archivo.close();
 
@@ -171,7 +173,6 @@ void CursosCRUD::DesplegarCa() {
         cout << "Codigo: " << Curso.codigo << endl;
         cout << "Nombre: " << Curso.nombre << endl;
         cout << "Creditos: " << Curso.Creditos << endl;
-        cout << "Prerequisitos: " << Curso.Requisitos << endl;
         cout << "-----------------------------" << endl;
     }
 

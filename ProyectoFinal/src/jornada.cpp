@@ -30,15 +30,19 @@ int choice;
     {
 	case 1:
         Ingresar();
+        system("pause");
 		break;
     case 2:
         Modificar();
+        system("pause");
 		break;
     case 3:
         Borrar();
+        system("pause");
 		break;
     case 4:
         Desplegar();
+        system("pause");
 		break;
     case 5:
 		break;

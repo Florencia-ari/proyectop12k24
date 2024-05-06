@@ -11,7 +11,6 @@ struct Curso {
     int codigo;
     char nombre[50];
     char Creditos[50];
-    int Requisitos[50];
 };
 class CursosCRUD {
 public:
