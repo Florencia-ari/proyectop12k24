@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Jornada.h" />
+		<Unit filename="include/Cursoss.h" />
+		<Unit filename="include/jornada.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Jornada.cpp" />
+		<Unit filename="src/Cursoss.cpp" />
+		<Unit filename="src/jornada.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

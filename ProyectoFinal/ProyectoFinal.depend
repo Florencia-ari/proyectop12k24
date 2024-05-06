@@ -233,3 +233,33 @@
 	<conio.h>
 	<iomanip>
 
+1715006970 source:c:\users\gaby\desktop\proyecto definitivo\proyectop12k24\proyectofinal\src\jornada.cpp
+	"Jornada.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1715006970 c:\users\gaby\desktop\proyecto definitivo\proyectop12k24\proyectofinal\include\jornada.h
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1715007190 source:c:\users\gaby\desktop\proyecto definitivo\proyectop12k24\proyectofinal\src\cursoss.cpp
+	"Cursoss.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1715007200 c:\users\gaby\desktop\proyecto definitivo\proyectop12k24\proyectofinal\include\cursoss.h
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+

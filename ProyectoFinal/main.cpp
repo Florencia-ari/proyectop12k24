@@ -5,7 +5,7 @@
 #include<conio.h>
 #include<iomanip>
 #include "Jornada.h"
-
+#include "Cursoss.h"
 
 using namespace std;
 
@@ -104,7 +104,8 @@ void catalogos(){
 
     case 2:
         {
-
+        CursosCRUD CCursos;
+        CCursos.CrudCursos();
         }
 		break;
     case 3:
