@@ -15,12 +15,14 @@
 	<iomanip>
 	<string>
 
-1714971513 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
+1715005681 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\main.cpp
 	<iostream>
-	<unistd.h>
-	"Portadas.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
 	"Jornada.h"
-	<string>
 
 1714891597 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\menu_catedratico.cpp
 	"Menu_catedratico.h"
@@ -216,22 +218,18 @@
 	<iostream>
 	"Portadas.h"
 
-1714971816 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\jornada.h
-	<iostream>
-	<fstream>
+1715005550 d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\include\jornada.h
 	<stdlib.h>
 	<cstdlib>
 	<conio.h>
 	<iomanip>
-	<string>
 
-1714977560 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\jornada.cpp
+1715005832 source:d:\umg\semestre 3\programacion 1\proyecto\proyectop12k24\proyectofinal\src\jornada.cpp
 	"Jornada.h"
 	<fstream>
-	<unistd.h>
 	<iostream>
-	<iomanip>
+	<stdlib.h>
 	<cstdlib>
-	<string>
-	<cstring>
+	<conio.h>
+	<iomanip>
 
