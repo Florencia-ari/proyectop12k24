@@ -1,20 +1,12 @@
 #include <iostream>
 #include <unistd.h>
-#include "Portadas.h"
-#include "Asignacionesmac.h"
-#include "Menu_catedratico.h"
-#include "Usuario_Catedratico.h"
-#include "Facultad.h"
-#include "Cursos.h"
+#include "Jornada.h"
 #include <string>
 
 using namespace std;
 
 int main()
 {
-      Portadas portadas;
-    portadas .dibujarPortada("portada1.txt");
-        Menu_catedratico menu_catedratico;
 
 
     int opciones;
@@ -55,8 +47,8 @@ int main()
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t|              CATALOGOS             |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t| 1. CRUD Facultades                 |"<<endl;
-				cout<<"\t\t\t| 2. CRUD cursos                     |"<<endl;
+				cout<<"\t\t\t| 1. jornada                         |"<<endl;
+				cout<<"\t\t\t| 2. cursos                          |"<<endl;
 				cout<<"\t\t\t| 3. Salir del menu                  |"<<endl;
 				cout<<"\t\t\t+------------------------------------+"<<endl;
 				cout<<"\t\t\t| Opcion a escoger:[1/2/3]           |"<<endl;
@@ -68,16 +60,16 @@ int main()
 					{
 					case 1:
 						{
-						Facultad facultad;
-		                facultad.menuFacultad();
+							Jornada jornada;
+							jornada.ejecutarJornada();
+
 		                system("pause");
 
 						}
 						break;
                     case 2:
 						{
-                        Cursos curso;
-                        curso.menuCursos();
+
                         system("pause");
 
 						}
@@ -97,44 +89,7 @@ int main()
             }
         case 2:
             {
-            	//________________________________
-            	int opciones2;
-				bool repetir2 = true;
-				do
-				{
-					//Limpia pantalla
-					system("cls");
-					//imprime en pantalla
-				system("cls");
-				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t|              PROCESOS              |"<<endl;
-				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t| 1. Asignacion maestros a cursos    |"<<endl;
-				cout<<"\t\t\t| 2. Salir del menu                  |"<<endl;
-				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\t| Opcion a escoger:[1/2]             |"<<endl;
-				cout<<"\t\t\t+------------------------------------+"<<endl;
-				cout<<"\t\t\tIngresa tu Opcion: ";
-				cin >> opciones2;
 
-				switch (opciones2)
-					{
-					case 1:
-						{
-							  menu_catedratico.Menu_P();
-							  system("pause");
-
-						}
-						break;
-
-						case 2:
-						break;
-					}
-				} while (repetir2,opciones2!= 2);
-
-				system("cls");
-                break;
-                //__________________________________
             }
             case 3:
             {
@@ -151,6 +106,5 @@ int main()
     } while (repetir);
 
     system("cls");
-    portadas.dibujarPortada("creditos.txt");
     return 0;
 }

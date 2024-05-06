@@ -1,6 +1,5 @@
-#ifndef REGISTROS_H
-#define REGISTROS_H
-#include "Usuario.h"
+#ifndef JORNADA_H
+#define JORNADA_H
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -8,28 +7,36 @@
 #include<conio.h>
 #include<iomanip>
 #include<string>
+
 using namespace std;
 
+class Jornada{
+public:
+	 void ejecutarJornada();
 
-class Registros
-{
-	public:
-		void menuRegistros();
-        void agregarRegistros();
-        void mostrarRegistros();
-        void modificarRegistros();
-        void buscarRegistros();
-        void borrarRegistros();
+ int escribirOpcion();
+void actualizarRegistro( fstream& );
+void nuevoRegistro( fstream& );
+void eliminarRegistro( fstream& );
+
+void consultarRegistro( fstream& );
+
+   Jornada( int = 0, string = "" );
+
+   // funciones de acceso para numeroCuenta
+   void establecerCodigoJornada( int );
+   int obtenerCodigoJornada() const;
+
+   // funciones de acceso para apellido
+   void establecerNombre( string );
+   string obtenerNombre() const;
 
 
-	protected:
 
-	private:
-		 string id;
-        string nombre;
-        string cantidad;
-        string precio;
+private:
+   int CodigoJornada;
+   char Nombre[ 15 ];
 
 };
 
-#endif // REGISTROS_H
+#endif // JORNADA_H

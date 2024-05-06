@@ -34,19 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Asignacionesmac.h" />
-		<Unit filename="include/Cursos.h" />
-		<Unit filename="include/Facultad.h" />
-		<Unit filename="include/Menu_catedratico.h" />
-		<Unit filename="include/Portadas.h" />
-		<Unit filename="include/Usuario_Catedratico.h" />
+		<Unit filename="include/Jornada.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Asignacionesmac.cpp" />
-		<Unit filename="src/Cursos.cpp" />
-		<Unit filename="src/Facultad.cpp" />
-		<Unit filename="src/Menu_catedratico.cpp" />
-		<Unit filename="src/Portadas.cpp" />
-		<Unit filename="src/Usuario_Catedratico.cpp" />
+		<Unit filename="src/Jornada.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

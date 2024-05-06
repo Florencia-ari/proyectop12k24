@@ -1,5 +1,0 @@
-01             011            Fisica_I       
-02             012            Programacion_I 
-03             013            Calculo_I      
-04             014            Proceso_Administrativo
-05             015            Derecho_Inform tico

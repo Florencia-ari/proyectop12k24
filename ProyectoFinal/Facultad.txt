@@ -1,2 +1,0 @@
-1              010            Ingenieria_en_Sistemas
-2              020            Arquitectura   
