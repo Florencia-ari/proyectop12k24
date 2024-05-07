@@ -72,7 +72,7 @@ void CursosCRUD::IngresarCa() {
     cin.getline(Curso.Creditos, 50);
 
 
-    ofstream archivo("Cursoss.bin", ios::binary | ios::app);
+    ofstream archivo("Cursoss.DAT", ios::binary | ios::app);
     archivo.write(reinterpret_cast<const char*>(&Curso), sizeof(Curso));
     archivo.close();
 
@@ -84,7 +84,7 @@ void CursosCRUD::ModificarCa() {
     cout << "Ingrese el codigo del curso a modificar: ";
     cin >> codigo;
 
-    fstream archivo("Cursoss.bin", ios::binary | ios::in | ios::out);
+    fstream archivo("Cursoss.DAT", ios::binary | ios::in | ios::out);
     if (!archivo) {
         cout << "No hay Cursoss registradas." << endl;
         return;
@@ -127,13 +127,13 @@ void CursosCRUD::BorrarCa() {
     cout << "Ingrese el codigo de la Cursos a eliminar: ";
     cin >> codigo;
 
-    ifstream archivo("Cursoss.bin", ios::binary);
+    ifstream archivo("Cursoss.DAT", ios::binary);
     if (!archivo) {
         cout << "No hay Cursoss registradas." << endl;
 
     }
 
-    ofstream archivoTmp("Cursoss_tmp.bin", ios::binary);
+    ofstream archivoTmp("Cursoss_tmp.DAT", ios::binary);
     Curso Curso;
     bool eliminada = false;
     while (archivo.read(reinterpret_cast<char*>(&Curso), sizeof(Curso))) {
@@ -147,8 +147,8 @@ void CursosCRUD::BorrarCa() {
     archivo.close();
     archivoTmp.close();
 
-    remove("Cursoss.bin");
-    rename("Cursoss_tmp.bin", "Cursoss.bin");
+    remove("Cursoss.DAT");
+    rename("Cursoss_tmp.DAT", "Cursoss.DAT");
 
     if (eliminada) {
         cout << "Cursos eliminada exitosamente!" << endl;
@@ -162,7 +162,7 @@ void CursosCRUD::BorrarCa() {
 void CursosCRUD::DesplegarCa() {
     system("cls");
     cout<<"-----------------Despliegue de Cursoss registradas---------------------"<<endl;
-    ifstream archivo("Cursoss.bin", ios::binary);
+    ifstream archivo("Cursoss.DAT", ios::binary);
     if (!archivo) {
         cout << "No hay Cursoss registradas." << endl;
         return;

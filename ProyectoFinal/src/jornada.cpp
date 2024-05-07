@@ -69,7 +69,7 @@ void JornadaCRUD::Ingresar() {
     cin.getline(Jornada.nombre, 50);
 
 
-    ofstream archivo("Jornadas.bin", ios::binary | ios::app);
+    ofstream archivo("Jornadas.DAT", ios::binary | ios::app);
     archivo.write(reinterpret_cast<const char*>(&Jornada), sizeof(Jornada));
     archivo.close();
 
@@ -81,7 +81,7 @@ void JornadaCRUD::Modificar() {
     cout << "Ingrese el codigo de la Jornada a modificar: ";
     cin >> codigo;
 
-    fstream archivo("Jornadas.bin", ios::binary | ios::in | ios::out);
+    fstream archivo("Jornadas.DAT", ios::binary | ios::in | ios::out);
     if (!archivo) {
         cout << "No hay Jornadas registradas." << endl;
         return;
@@ -120,13 +120,13 @@ void JornadaCRUD::Borrar() {
     cout << "Ingrese el codigo de la Jornada a eliminar: ";
     cin >> codigo;
 
-    ifstream archivo("Jornadas.bin", ios::binary);
+    ifstream archivo("Jornadas.DAT", ios::binary);
     if (!archivo) {
         cout << "No hay Jornadas registradas." << endl;
 
     }
 
-    ofstream archivoTmp("Jornadas_tmp.bin", ios::binary);
+    ofstream archivoTmp("Jornadas_tmp.DAT", ios::binary);
     Jornada Jornada;
     bool eliminada = false;
     while (archivo.read(reinterpret_cast<char*>(&Jornada), sizeof(Jornada))) {
@@ -140,8 +140,8 @@ void JornadaCRUD::Borrar() {
     archivo.close();
     archivoTmp.close();
 
-    remove("Jornadas.bin");
-    rename("Jornadas_tmp.bin", "Jornadas.bin");
+    remove("Jornadas.DAT");
+    rename("Jornadas_tmp.DAT", "Jornadas.DAT");
 
     if (eliminada) {
         cout << "Jornada eliminada exitosamente!" << endl;
@@ -155,7 +155,7 @@ void JornadaCRUD::Borrar() {
 void JornadaCRUD::Desplegar() {
     system("cls");
     cout<<"-----------------Despliegue de Jornadas registradas---------------------"<<endl;
-    ifstream archivo("Jornadas.bin", ios::binary);
+    ifstream archivo("Jornadas.DAT", ios::binary);
     if (!archivo) {
         cout << "No hay Jornadas registradas." << endl;
         return;
