@@ -1,4 +1,5 @@
 Algoritmo sin_titulo
+	//HECHO POR KATHIA CONTRERAS 9959-23-8246
 	facultad <- 'facultad.dat';
 	jornada <- 'jornada.dat';
 	cursos <- 'cursos.dat';
