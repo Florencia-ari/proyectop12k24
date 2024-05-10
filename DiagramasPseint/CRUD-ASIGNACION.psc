@@ -1,4 +1,5 @@
 Algoritmo asignacion_maestros_a_cursos
+	//HECHO POR KATHIA CONTRERAS 9959-23-8246
 	Repetir
 		Limpiar Pantalla;
 		Escribir '+-------------------------------+';
