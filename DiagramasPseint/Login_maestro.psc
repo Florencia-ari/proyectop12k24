@@ -1,3 +1,4 @@
+//creado por Víctor Omar Gómez Carrascosa
 Algoritmo Login
 	Definir usuario, CONTRASENA Como Cadena;
 	usuarioMaestro <- 'admin';
